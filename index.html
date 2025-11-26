@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header id="header">
+         <nav>
+             <a href="#" class="logo">IRMA</a>
+             <ul class="nav-links" id="navLinks">
+                 <li><a href="#accueil">Accueil</a></li>
+                 <li><a href="#programmes">Programmes</a></li>
+                 <li><a href="#conferences">Conférences</a></li>
+                 <li><a href="#recherche">Recherche</a></li>
+                 <li><a href="#temoignages">Témoignages</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#candidater" class="cta-btn">Candidater</a></li>
+             </ul>
+             <div class="menu-toggle" id="menuToggle">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+             </div>
+         </nav>
+     </header>
+ 
+     <!-- Hero Section -->
+     <section class="hero" id="accueil">
+         <div class="hero-pattern"></div>
+         <div class="hero-content">
+             <h1>Institut Régional de la Mode</h1>
+             <p>Former la nouvelle génération de créateurs, techniciens et entrepreneurs de la mode africaine. Excellence académique, patrimoine culturel congolais et innovation durable au cœur de Kinshasa.</p>
+             <div class="hero-cta">
+                 <a href="#programmes" class="btn btn-primary">
+                     <i class="fas fa-graduation-cap"></i>
+                     Découvrir nos formations
+                 </a>
+                 <a href="#candidater" class="btn btn-secondary">
+                     <i class="fas fa-paper-plane"></i>
+                     Candidater maintenant
+                 </a>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Slides Section (3 Composantes) -->
+     <section class="slides-section">
+         <div class="container">
+             <h2 class="section-title">Nos 3 Piliers</h2>
+             <p class="section-subtitle">IRMA repose sur trois composantes complémentaires qui façonnent l'expérience de nos apprenants</p>
+             
+             <div class="slides-container">
+                 <div class="slide active" data-slide="0">
+                     <div class="slide-pattern incubateur"></div>
+                     <div class="slide-icon incubateur">
+                         <i class="fas fa-seedling"></i>
+                     </div>
+                     <h3>Incubateur</h3>
+                     <p>Un espace dédié à l'accompagnement entrepreneurial où les créateurs émergents peuvent transformer leurs idées en marques viables. Nous offrons mentorat, networking, accès aux ressources et soutien stratégique pour lancer et développer votre projet de mode.</p>
+                 </div>
+ 
+                 <div class="slide" data-slide="1">
+                     <div class="slide-pattern exposition"></div>
+                     <div class="slide-icon exposition                         <i class="fas fa-palette"></i>
+                     </div>
+                     <h3>Exposition</h3>
+                     <p>Nous organisons régulièrement des défilés, expositions et showcases pour mettre en lumière le talent de nos étudiants et alumni. Ces événements offrent une visibilité locale et internationale, connectant nos créateurs avec le marché, les acheteurs et les médias.</p>
+                 </div>
+ 
+                 <div class="slide" data-slide="2">
+                     <div class="slide-pattern recherche"></div>
+                     <div class="slide-icon recherche">
+                         <i class="fas fa-flask"></i>
+                     </div>
+                     <h3>Recherche & Développement</h3>
+                     <p>Notre laboratoire d'innovation textile explore les matières locales durables, les techniques ancestrales et les technologies émergentes. Nous collaborons avec des universités, ONG et marques pour faire avancer la mode africaine responsable et créative.</p>
+                 </div>
+
+                 <div class="slide-nav">
+                     <span class="slide-dot active" data-slide="0"></span>
+                     <span class="slide-dot" data-slide="1"></span>
+                     <span class="slide-dot" data-slide="2"></span>
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- About Section -->
+     <section class="about-section">
+         <div class="container about-content">
+             <div class="about-grid">
+                 <div class="about-text">
+                     <h2>Qui sommes-nous ?</h2>
+                     <p>L'Institut Régional de la Mode (IRMA) est une école innovante de formation professionnelle et artistique fondée au cœur de Kinshasa, en République Démocratique du Congo.</p>
+                     <p>Porté par Kobo-Art Fashion, IRMA a pour mission de former la nouvelle génération de créateurs, techniciens, entrepreneurs et chercheurs dans les métiers de la mode, du textile et du design.</p>
+                     <p>Nous conjuguons patrimoine culturel congolais, excellence académique et pratiques contemporaines durables pour offrir aux apprenants un parcours unique, à fort impact local et international.</p>
+                     <p><strong>Notre ambition :</strong> faire de Kinshasa une capitale éducative et créative de la mode en Afrique centrale et francophone.</p>
+                 </div>
+                 <div class="about-stats">
+                     <div class="stat-card">
+                         <div class="stat-number">500+</div>
+                         <div class="stat-label">Étudiants formés</div>
+                     </div>
+                     <div class="stat-card">
+                         <div class="stat-number">15+</div>
+                         <div class="stat-label">Programmes de formation</div>
+                     </div>
+                     <div class="stat-card">
+                         <div class="stat-number">85%</div>
+                         <div class="stat-label">Taux d'insertion professionnelle</div>
+                     </div>
+                     <div class="stat-card">
+                         <div class="stat-number">30+</div>
+                         <div class="stat-label">Partenaires internationaux</div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Programs Section -->
+     <section class="programs-section" id="programmes">
+         <div class="container">
+             <h2 class="section-title">Programmes Académiques</h2>
+             <p class="section-subtitle">Une offre de formation modulaire et certifiante, adaptée aux réalités du marché et accessible à différents profils</p>
+ 
+             <div class="programs-filter">
+                 <button class="filter-btn active" data-filter="all">Tous les programmes</button>
+                 <button class="filter-btn" data-filter="long">Formations longues</button>
+                 <button class="filter-btn" data-filter="short">Formations courtes</button>
+                 <button class="filter-btn" data-filter="digital">Modules numériques</button>
+             </div>
+ 
+             <div class="programs-grid" id="programsGrid">
+                 <!-- Long programs -->
+                 <div class="program-card" data-type="long">
+                     <div class="program-header">
+                         <div class="program-type">Formation Longue</div>
+                         <h3 class="program-title">Création de Collection</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 12 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Maîtrisez l'art de concevoir et développer une collection de mode cohérente, de l'idée initiale à la pièce finale.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Recherche et moodboard</li>
+                                 <li>Dessin technique et artistique</li>
+                                 <li>Choix des matières et couleurs</li>
+                                 <li>Développement de silhouettes</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Certifiant</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="long">
+                     <div class="program-header">
+                         <div class="program-type">Formation Longue</div>
+                         <h3 class="program-title">Patronnage Professionnel</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 10 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Devenez expert en construction de patron, gradation et transformation pour tous types de vêtements.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Prise de mesures et morphologie</li>
+                                 <li>Patrons de base (jupe, pantalon, corsage)</li>
+                                 <li>Transformations et variations</li>
+                                 <li>Gradation et industrialisation</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Certifiant</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
++ 1573                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="long">
+                     <div class="program-header">
+                         <div class="program-type">Formation Longue</div>
+                         <h3 class="program-title">Design Textile & Impression</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 8 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Explorez la création de motifs, l'impression textile et les techniques artisanales africaines contemporaines.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Théorie des couleurs et composition</li>
+                                 <li>Création de motifs (wax, batik, bogolan)</li>
+                                 <li>Techniques d'impression (sérigraphie, numérique)</li>
+                                 <li>Teinture naturelle et durable</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Certifiant</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="long">
+                     <div class="program-header">
+                         <div class="program-type">Formation Longue</div>
+                         <h3 class="program-title">Management de Marque de Mode</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 6 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Apprenez à construire, gérer et développer une marque de mode viable et attractive sur le marché africain et international.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Positionnement et identité de marque</li>
+                                 <li>Marketing et communication digitale</li>
+                                 <li>Business plan et gestion financière</li>
+                                 <li>Distribution et e-commerce</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Certifiant</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <!-- Short programs -->
+                 <div class="program-card" data-type="short">
+                     <div class="program-header" style="background: linear-gradient(135deg, #ff6b6b, #f59e0b);">
+                         <div class="program-type">Formation Courte</div>
+                         <h3 class="program-title">Initiation au Patronnage</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 3 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Découvrez les bases du patronnage et de la couture pour démarrer votre parcours dans la mode.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Mesures et morphologie de base</li>
+                                 <li>Patrons simples (jupe droite, chemise)</li>
+                                 <li>Techniques de couture essentielles</li>
+                                 <li>Finitions et retouches</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Accessible</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="short">
+                     <div class="program-header" style="background: linear-gradient(135deg, #ff6b6b, #f59e0b);">
+                         <div class="program-type">Formation Courte</div>
+                         <h3 class="program-title">Broderie & Finitions</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 2 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Maîtrisez les techniques de broderie artisanale et industrielle pour sublimer vos créations.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Broderie main (points essentiels)</li>
+                                 <li>Broderie machine et numérisation</li>
+                                 <li>Perles et embellissements</li>
+                                 <li>Finitions haut de gamme</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Accessible</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="short">
+                     <div class="program-header" style="background: linear-gradient(135deg, #ff6b6b, #f59e0b);">
+                         <div class="program-type">Formation Courte</div>
+                         <h3 class="program-title">Éco-conception & Upcycling</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 1 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Adoptez une approche durable de la mode à travers le recyclage créatif et l'éco-conception.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Principes de l'éco-conception</li>
+                                 <li>Techniques d'upcycling</li>
+                                 <li>Matières durables et locales</li>
+                                 <li>Économie circulaire dans la mode</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">Accessible</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital programs -->
+                <div class="program-card" data-type="digital">
+                    <div class="program-header" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+                        <div class="program-type">Module Numérique</div>
+                        <h3 class="program-title">DAO & Modélisation 3D</h3>
+                        <div class="program-duration"><i class="far fa-clock"></i> 4 mois</div>
+                    </div>
+                    <div class="program-body">
+                        <p class="program-description">Maîtrisez les outils numériques essentiels de la mode : CLO3D, Illustrator et Photoshop.</p>
+                        <div class="program-modules">
+                            <h4>Modules clés :</h4>
+                            <ul class="module-list">
+                                <li>Adobe Illustrator pour la mode</li>
+                                <li>Photoshop appliqué au textile</li>
+                                <li>Modélisation 3D avec CLO3D</li>
+                                <li>Simulation et rendu réaliste</li>
+                            </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">100% en ligne</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="program-card" data-type="digital">
+                     <div class="program-header" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+                         <div class="program-type">Module Numérique</div>
+                         <h3 class="program-title">Portfolio Numérique</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 2 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Créez un portfolio professionnel qui met en valeur votre travail et attire les opportunités.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Sélection et curation de travaux</li>
+                                 <li>Photographie et mise en scène</li>
+                                 <li>Design et présentation digitale</li>
+                                 <li>Personal branding</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">100% en ligne</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
++ 1761 
+                 <div class="program-card" data-type="digital">
+                     <div class="program-header" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+                         <div class="program-type">Module Numérique</div>
+                         <h3 class="program-title">E-commerce Mode</h3>
+                         <div class="program-duration"><i class="far fa-clock"></i> 3 mois</div>
+                     </div>
+                     <div class="program-body">
+                         <p class="program-description">Lancez votre boutique en ligne et vendez vos créations sur le marché global.</p>
+                         <div class="program-modules">
+                             <h4>Modules clés :</h4>
+                             <ul class="module-list">
+                                 <li>Création de boutique (Shopify, WooCommerce)</li>
+                                 <li>Photographie produit</li>
+                                 <li>Marketing digital et réseaux sociaux</li>
+                                 <li>Logistique et service client</li>
+                             </ul>
+                         </div>
+                         <div class="program-footer">
+                             <div class="program-price">100% en ligne</div>
+                             <button class="btn btn-primary btn-small" onclick="openModal('apply')">
+                                 <i class="fas fa-paper-plane"></i> Candidater
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="text-center mt-2">
+                 <button class="btn btn-secondary" onclick="openModal('brochure')">
+                     <i class="fas fa-download"></i>
+                     Télécharger la brochure complète
+                 </button>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Admissions Section -->
+     <section class="admissions-section" id="candidater">
+         <div class="container">
+             <h2 class="section-title">Rejoindre l'Institut</h2>
+             <p class="section-subtitle">Candidatez dès maintenant pour la prochaine session de formation</p>
+ 
+             <div class="admissions-grid">
+                 <div>
+                     <div class="info-card">
+                         <h3><i class="far fa-calendar"></i> Dates Importantes</h3>
+                         <ul class="info-list">
+                             <li>
+                                 <i class="fas fa-chevron-right"></i>
+                                 <div>
+                                     <strong>Inscriptions Session 1 :</strong> Décembre (début des cours en janvier)
+                                 </div>
+                             </li>
+                             <li>
+                                 <i class="fas fa-chevron-right"></i>
+                                 <div>
+                                     <strong>Inscriptions Session 2 :</strong> Juin (début des cours en juillet)
+                                 </div>
+                             </li>
+                             <li>
+                                 <i class="fas fa-chevron-right"></i>
+                                 <div>
+                                     <strong>Démarrage des cours :</strong> Janvier & Juillet
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+ 
+                     <div class="info-card mt-2">
+                         <h3><i class="fas fa-check-circle"></i> Conditions d'Admission</h3>
+                         <ul class="info-list">
+                             <li>
+                                 <i class="fas fa-file-alt"></i>
+                                 <span>Dossier de candidature complet</span>
+                             </li>
+                             <li>
+                                 <i class="fas fa-envelope"></i>
+                                 <span>Lettre de motivation personnalisée</span>
+                             </li>
+                             <li>
+                                 <i class="fas fa-folder-open"></i>
+                                 <span>Portfolio (optionnel mais recommandé)</span>
+                             </li>
+                             <li>
+                                 <i class="fas fa-user-check"></i>
+                                 <span>Test de créativité ou entretien</span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+ 
+                 <div class="admission-form">
+                     <h3>Formulaire de Candidature</h3>
+                     <form id="admissionForm">
+                         <div class="form-group">
+                             <label for="nom">Nom complet *</label>
+                             <input type="text" id="nom" name="nom" required placeholder="Votre nom complet">
+                         </div>
+                         <div class="form-group">
+                             <label for="email">Email *</label>
+                             <input type="email" id="email" name="email" required placeholder="votre.email@exemple.com">
+                         </div>
+                         <div class="form-group">
+                             <label for="telephone">Téléphone *</label>
+                             <input type="tel" id="telephone" name="telephone" required placeholder="+243 000 000 000">
+                         </div>
+                         <div class="form-group">
+                             <label for="programme">Programme souhaité *</label>
+                             <select id="programme" name="programme" required>
+                                 <option value="">Sélectionnez un programme</option>
+                                 <option value="creation">Création de Collection</option>
+                                 <option value="patronnage">Patronnage Professionnel</option>
+                                 <option value="textile">Design Textile & Impression</option>
+                                 <option value="management">Management de Marque</option>
+                                 <option value="initiation">Initiation au Patronnage</option>
+                                 <option value="broderie">Broderie & Finitions</option>
+                                 <option value="eco">Éco-conception & Upcycling</option>
+                                 <option value="dao">DAO & Modélisation 3D</option>
+                                 <option value="portfolio">Portfolio Numérique</option>
+                                 <option value="ecommerce">E-commerce Mode</option>
+                             </select>
+                         </div>
+                         <div class="form-group">
+                             <label for="session">Session *</label>
+                             <select id="session" name="session" required>
+                                 <option value="">Sélectionnez une session</option>
+                                 <option value="janvier">Janvier 2025</option>
+                                 <option value="juillet">Juillet 2025</option>
+                             </select>
+                         </div>
+                         <div class="form-group">
+                             <label for="motivation">Lettre de motivation *</label>
+                             <textarea id="motivation" name="motivation" required placeholder="Expliquez-nous pourquoi vous souhaitez rejoindre IRMA..."></textarea>
+                         </div>
+                         <div class="form-group">
+                             <label>Portfolio (optionnel)</label>
+                             <div class="file-upload">
+                                 <input type="file" id="portfolio" name="portfolio" accept=".pdf,.jpg,.png">
+                                 <div class="file-upload-label">
+                                     <i class="fas fa-cloud-upload-alt"></i>
+                                     <span>Cliquez pour télécharger votre portfolio (PDF, JPG, PNG)</span>
+                                 </div>
+                             </div>
+                         </div>
+                         <button type="submit" class="btn btn-submit">
+                             <i class="fas fa-paper-plane"></i>
+                             Soumettre ma candidature
+                         </button>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Conferences Section -->
+     <section class="conferences-section" id="conferences">
+         <div class="container">
+             <h2 class="section-title">Conférences & Masterclass</h2>
+             <p class="section-subtitle">Apprendre avec les meilleurs - Événements animés par des experts locaux et internationaux. Les sujets évoluent en fonction des tendances et études de marché authentiques.</p>
+             <div class="events-grid">
+                 <div class="event-card">
+                     <div class="event-date">
+                         <div class="event-day">15</div>
+                         <div class="event-month">Mars 2025</div>
+                     </div>
+                     <div class="event-content">
+                         <h3 class="event-title">Mode et Patrimoine Africain : Une Lecture Contemporaine</h3>
+                         <p class="event-description">Exploration des techniques ancestrales et leur réinterprétation dans la mode actuelle. Comment le wax, le bogolan et autres textiles traditionnels inspirent la création moderne.</p>
+                         <div class="event-speaker">
+                             <i class="fas fa-user"></i>
+                             <span>Conférence & Atelier pratique</span>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="event-card">
+                     <div class="event-date">
+                         <div class="event-day">22</div>
+                         <div class="event-month">Avril 2025</div>
+                     </div>
+                     <div class="event-content">
+                         <h3 class="event-title">Stratégies pour une Marque de Mode Durable</h3>
+                         <p class="event-description">Masterclass sur la construction d'une marque éthique et responsable. Business model, sourcing durable, et communication transparente avec vos clients.</p>
+                         <div class="event-speaker">
+                             <i class="fas fa-user"></i>
+                             <span>Experts en entrepreneuriat durable</span>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="event-card">
+                     <div class="event-date">
+                         <div class="event-day">10</div>
+                         <div class="event-month">Mai 2025</div>
+                     </div>
+                     <div class="event-content">
+                         <h3 class="event-title">Digitalisation de la Chaîne de Production Textile</h3>
+                         <p class="event-description">Les nouvelles technologies au service de la mode africaine : impression 3D, modélisation numérique, e-commerce et production à la demande.</p>
+                         <div class="event-speaker">
+                             <i class="fas fa-user"></i>
+                             <span>Designers & Tech innovateurs</span>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="event-card">
+                     <div class="event-date">
+                         <div class="event-day">18</div>
+                         <div class="event-month">Juin 2025</div>
+                     </div>
+                     <div class="event-content">
+                         <h3 class="event-title">Femmes Créatrices dans la Mode en Afrique</h3>
+                         <p class="event-description">Table ronde et témoignages de créatrices qui façonnent la mode africaine. Défis, succès, et perspectives d'avenir pour les femmes entrepreneurs de la mode.</p>
+                         <div class="event-speaker">
+                             <i class="fas fa-user"></i>
+                             <span>Panel de créatrices reconnues</span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="text-center mt-2">
+                 <button class="btn btn-secondary" onclick="openModal('events')">
+                     <i class="far fa-calendar-alt"></i>
+                     Voir le calendrier complet
+                 </button>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Research Section -->
+     <section class="research-section" id="recherche">
+         <div class="container">
+             <h2 class="section-title">Recherche & Innovation</h2>
+             <p class="section-subtitle">Un laboratoire d'idées au service de la mode africaine. Nous soutenons la recherche appliquée, les prototypes textiles et les initiatives expérimentales.</p>
+
+             <div class="research-grid">
+                 <div class="research-card">
+                     <div class="research-icon">
+                         <i class="fas fa-book-open"></i>
+                     </div>
+                     <h3>Histoire & Transmission</h3>
+                     <p>Étude approfondie du vêtement traditionnel congolais, documentation des techniques ancestrales et transmission aux nouvelles générations de créateurs.</p>
+                 </div>
+ 
+                 <div class="research-card">
+                     <div class="research-icon">
+                         <i class="fas fa-leaf"></i>
+                     </div>
+                     <h3>Matières Locales Durables</h3>
+                     <p>Recherche sur les fibres, teintures naturelles et matériaux locaux. Valorisation des ressources congolaises pour une mode plus autonome et écologique.</p>
+                 </div>
+ 
+                 <div class="research-card">
+                     <div class="research-icon">
+                         <i class="fas fa-microscope"></i>
+                     </div>
+                     <h3>Innovation Textile</h3>
+                     <p>Exploration de fibres alternatives, impression 3D, teinture naturelle innovante et technologies émergentes appliquées au textile africain.</p>
+                 </div>
+
+                 <div class="research-card">
+                     <div class="research-icon">
+                         <i class="fas fa-recycle"></i>
+                     </div>
+                     <h3>Économie Circulaire</h3>
+                     <p>Développement de modèles de production inclusifs, recyclage créatif, upcycling et systèmes de mode circulaire adaptés au contexte local.</p>
+                 </div>
+             </div>
+
+             <div class="text-center mt-2">
+                 <p style="color: var(--text-light); margin-bottom: 1.5rem;">Nous collaborons avec des institutions artistiques, universités, maisons de couture, ONG et incubateurs créatifs.</p>
+                 <button class="btn btn-primary" onclick="openModal('research')">
+                     <i class="fas fa-lightbulb"></i>
+                     Proposer un projet de recherche
+                 </button>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Testimonials Section -->
+     <section class="testimonials-section" id="temoignages">
+         <div class="container">
+             <h2 class="section-title" style="color: white;">Témoignages & Parcours d'Alumni</h2>
+             <p class="section-subtitle" style="color: rgba(255, 255, 255, 0.8);">Leurs mots, leur impact - Découvrez les parcours inspirants de nos diplômés</p>
+
+             <div class="testimonials-slider">
+                 <div class="testimonial active">
+                     <p class="testimonial-quote">IRMA m'a permis d'allier culture congolaise et vision contemporaine. Aujourd'hui, j'exporte mes pièces à Paris et mes créations sont portées par des personnalités internationales.</p>
+                     <div class="testimonial-author">
+                         <div class="testimonial-name">Stéphanie Mukendi</div>
+                         <div class="testimonial-role">Créatrice de mode - Diplômée 2023</div>
+                     </div>
+                 </div>
+
+                 <div class="testimonial">
+                     <p class="testimonial-quote">Avant IRMA, je n'avais jamais touché une machine à coudre. Maintenant, je suis assistante modéliste dans un grand atelier de Kinshasa et je forme à mon tour de jeunes talents.</p>
+                     <div class="testimonial-author">
+                         <div class="testimonial-name">Patrick Nsaku</div>
+                         <div class="testimonial-role">Modéliste professionnel - Promotion 2022</div>
+                     </div>
+                 </div>
+
+                 <div class="testimonial">
+                     <p class="testimonial-quote">Les formateurs, les machines, l'ambiance… tout est pensé pour nous pousser à réussir. L'incubateur m'a aidée à lancer ma propre marque et à trouver mes premiers clients.</p>
+                     <div class="testimonial-author">
+                         <div class="testimonial-name">Nadine Kasongo</div>
+                         <div class="testimonial-role">Fondatrice de marque - Incubation 2024</div>
+                     </div>
+                 </div>
+
+                 <div class="testimonial-nav">
+                     <span class="testimonial-dot active" data-testimonial="0"></span>
+                     <span class="testimonial-dot" data-testimonial="1"></span>
+                     <span class="testimonial-dot" data-testimonial="2"></span>
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Contact Section -->
+     <section class="contact-section" id="contact">
+         <div class="container">
+             <h2 class="section-title">Contact & Informations</h2>
+             <p class="section-subtitle">Où nous trouver ? N'hésitez pas à nous contacter pour toute question</p>
+
+             <div class="contact-grid">
+                 <div class="contact-info">
+                     <div class="contact-item">
+                         <div class="contact-icon">
+                             <i class="fas fa-map-marker-alt"></i>
+                         </div>
+                         <div class="contact-details">
+                             <h3>Adresse</h3>
+                             <p>Institut Régional de la Mode (IRMA)<br>
+                             Hub Kobo-Art Fashion<br>
+                             Kinshasa, République Démocratique du Congo</p>
+                         </div>
+                     </div>
+
+                     <div class="contact-item">
+                         <div class="contact-icon">
+                             <i class="fas fa-envelope"></i>
+                         </div>
+                         <div class="contact-details">
+                             <h3>Email</h3>
+                             <p><a href="mailto:info@irma-rdc.org">info@irma-rdc.org</a></p>
+                             <p><a href="mailto:attes@kobo-hub.com">attes@kobo-hub.com</a></p>
+                         </div>
+                     </div>
+
+                     <div class="contact-item">
+                         <div class="contact-icon">
+                             <i class="fas fa-phone"></i>
+                         </div>
+                         <div class="contact-details">
+                             <h3>Téléphone</h3>
+                             <p>+243 XXX XXX XXX</p>
+                         </div>
+                     </div>
+
+                     <div class="contact-item">
+                         <div class="contact-icon">
+                             <i class="fas fa-share-alt"></i>
+                         </div>
+                         <div class="contact-details">
+                             <h3>Réseaux Sociaux</h3>
+                             <div class="social-links">
+                                 <a href="#" class="social-link" aria-label="Instagram">
+                                     <i class="fab fa-instagram"></i>
+                                 </a>
+                                 <a href="#" class="social-link" aria-label="Facebook">
+                                     <i class="fab fa-facebook"></i>
+                                 </a>
+                                 <a href="#" class="social-link" aria-label="LinkedIn">
+                                     <i class="fab fa-linkedin"></i>
+                                 </a>
+                                 <a href="#" class="social-link" aria-label="Twitter">
+                                     <i class="fab fa-twitter"></i>
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+ 
+                 <div class="contact-form">
+                     <h3>Envoyez-nous un message</h3>
+                     <form id="contactForm">
+                         <div class="form-group">
+                             <label for="contact-nom">Nom *</label>
+                             <input type="text" id="contact-nom" name="nom" required placeholder="Votre nom">
+                         </div>
+                         <div class="form-group">
+                             <label for="contact-email">Email *</label>
+                             <input type="email" id="contact-email" name="email" required placeholder="votre.email@exemple.com">
+                         </div>
+                         <div class="form-group">
+                             <label for="contact-sujet">Sujet *</label>
+                             <input type="text" id="contact-sujet" name="sujet" required placeholder="Objet de votre message">
+                         </div>
+                         <div class="form-group">
+                             <label for="contact-message">Message *</label>
+                             <textarea id="contact-message" name="message" required placeholder="Votre message..."></textarea>
+                         </div>
+                         <button type="submit" class="btn btn-submit">
+                             <i class="fas fa-paper-plane"></i>
+                             Envoyer le message
+                         </button>
+                     </form>
+                 </div>
+             </div>
+         </div>
+     </section>
+ 
+     <!-- Footer -->
+     <footer>
+         <div class="footer-content">
+             <div class="footer-section">
+                 <h3>IRMA</h3>
+                 <p>Institut Régional de la Mode - Former la nouvelle génération de créateurs africains.</p>
+                 <div class="social-links">
+                     <a href="#" class="social-link">
+                         <i class="fab fa-instagram"></i>
+                     </a>
+                     <a href="#" class="social-link">
+                         <i class="fab fa-facebook"></i>
+                     </a>
+                     <a href="#" class="social-link">
+                         <i class="fab fa-linkedin"></i>
+                     </a>
+                     <a href="#" class="social-link">
+                         <i class="fab fa-twitter"></i>
+                     </a>
+                 </div>
+             </div>
+ 
+             <div class="footer-section">
+                 <h3>Navigation</h3>
+                 <a href="#accueil">Accueil</a>
+                 <a href="#programmes">Programmes</a>
+                 <a href="#conferences">Conférences</a>
+                 <a href="#recherche">Recherche</a>
+                 <a href="#temoignages">Témoignages</a>
+                 <a href="#contact">Contact</a>
+             </div>
+ 
+             <div class="footer-section">
+                 <h3>Formations</h3>
+                 <a href="#programmes">Formations Longues</a>
+                 <a href="#programmes">Formations Courtes</a>
+                 <a href="#programmes">Modules Numériques</a>
+                 <a href="#candidater">Candidater</a>
+             </div>
+ 
+             <div class="footer-section">
+                 <h3>Newsletter</h3>
+                 <p>Restez informé de nos actualités, événements et nouvelles formations.</p>
+                 <form class="newsletter-form" id="newsletterForm">
+                     <input type="email" placeholder="Votre email" required>
+                     <button type="submit">
+                         <i class="fas fa-arrow-right"></i>
+                     </button>
+                 </form>
+             </div>
+         </div>
+ 
+         <div class="footer-bottom">
+             <p>&copy; 2025 IRMA - Institut Régional de la Mode. Tous droits réservés. | Une initiative Kobo-Art Fashion</p>
+         </div>
+     </footer>
+ 
+     <!-- Modals -->
+     <div class="modal" id="successModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('successModal')">×</button>
+             <div class="modal-icon">
+                 <i class="fas fa-check"></i>
+             </div>
+             <h3>Candidature envoyée !</h3>
+             <p>Merci pour votre candidature. Notre équipe l'examinera attentivement et vous contactera dans les prochains jours.</p>
+         </div>
+     </div>
+ 
+     <div class="modal" id="brochureModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('brochureModal')">×</button>
+             <div class="modal-icon">
+                 <i class="fas fa-download"></i>
+             </div>
+             <h3>Télécharger la brochure</h3>
+             <p>La brochure complète IRMA 2025 sera téléchargée automatiquement. Elle contient tous les détails sur nos programmes, tarifs et conditions d'admission.</p>
+             <button class="btn btn-primary" onclick="downloadBrochure()">
+                 <i class="fas fa-file-pdf"></i>
+                 Télécharger maintenant
+             </button>
+         </div>
+     </div>
+ 
+     <div class="modal" id="eventsModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('eventsModal')">×</button>
+             <div class="modal-icon">
+                 <i class="far fa-calendar-alt"></i>
+             </div>
+             <h3>Calendrier des événements</h3>
+             <p>Le calendrier complet des conférences et masterclass 2025 sera bientôt disponible. Inscrivez-vous à notre newsletter pour être informé en priorité.</p>
+         </div>
+     </div>
+ 
+     <div class="modal" id="researchModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('researchModal')">×</button>
+             <div class="modal-icon">
+                 <i class="fas fa-lightbulb"></i>
+             </div>
+             <h3>Proposer un projet de recherche</h3>
+             <p>Vous avez un projet de recherche ou souhaitez collaborer avec IRMA ? Contactez-nous à <a href="mailto:recherche@irma-rdc.org" style="color: var(--primary-emerald); font-weight: 600;">recherche@irma-rdc.org</a></p>
+         </div>
+     </div>
+ 
+     <div class="modal" id="contactSuccessModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('contactSuccessModal')">×</button>
+             <div class="modal-icon">
+                 <i class="fas fa-check"></i>
+             </div>
+             <h3>Message envoyé !</h3>
+             <p>Merci pour votre message. Notre équipe vous répondra dans les plus brefs délais.</p>
+         </div>
+     </div>
+ 
+     <div class="modal" id="newsletterSuccessModal">
+         <div class="modal-content">
+             <button class="modal-close" onclick="closeModal('newsletterSuccessModal')">×</button>
+             <div class="modal-icon">
+                 <i class="fas fa-envelope-open-text"></i>
+             </div>
+             <h3>Inscription réussie !</h3>
+             <p>Vous êtes maintenant abonné à notre newsletter. Vous recevrez toutes nos actualités et événements.</p>
+         </div>
+     </div>
+
+<script src="script.js"></script>
+</body>
+</html>
